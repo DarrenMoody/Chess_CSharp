@@ -13,5 +13,9 @@ namespace Chess_DNM {
 		public Form1() {
 			InitializeComponent();
 		}
+
+		private void exitToolStripMenuItem_Click(object sender, EventArgs e) {
+			this.Close();
+		}
 	}
 }
