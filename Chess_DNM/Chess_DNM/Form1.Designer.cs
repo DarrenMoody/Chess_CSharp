@@ -100,10 +100,10 @@
 			this.howToPlayChessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.panel1 = new System.Windows.Forms.Panel();
-			this.button1 = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
-			this.label1 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.txtBxDiff = new System.Windows.Forms.TextBox();
+			this.lblDiff = new System.Windows.Forms.Label();
+			this.btnPlusDiff = new System.Windows.Forms.Button();
+			this.btnMinusDiff = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pBoxA8)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pBoxB8)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pBoxD8)).BeginInit();
@@ -1035,60 +1035,60 @@
 			// panel1
 			// 
 			this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.panel1.Controls.Add(this.textBox1);
-			this.panel1.Controls.Add(this.label1);
-			this.panel1.Controls.Add(this.button2);
-			this.panel1.Controls.Add(this.button1);
+			this.panel1.Controls.Add(this.txtBxDiff);
+			this.panel1.Controls.Add(this.lblDiff);
+			this.panel1.Controls.Add(this.btnPlusDiff);
+			this.panel1.Controls.Add(this.btnMinusDiff);
 			this.panel1.Location = new System.Drawing.Point(672, 88);
 			this.panel1.Name = "panel1";
 			this.panel1.Padding = new System.Windows.Forms.Padding(2);
 			this.panel1.Size = new System.Drawing.Size(200, 246);
 			this.panel1.TabIndex = 65;
 			// 
-			// button1
+			// txtBxDiff
 			// 
-			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.Location = new System.Drawing.Point(42, 27);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(24, 23);
-			this.button1.TabIndex = 0;
-			this.button1.Text = "-";
-			this.button1.UseVisualStyleBackColor = true;
+			this.txtBxDiff.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+			this.txtBxDiff.Font = new System.Drawing.Font("Neuropol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtBxDiff.ForeColor = System.Drawing.Color.Lime;
+			this.txtBxDiff.Location = new System.Drawing.Point(72, 27);
+			this.txtBxDiff.MaximumSize = new System.Drawing.Size(50, 25);
+			this.txtBxDiff.MinimumSize = new System.Drawing.Size(50, 25);
+			this.txtBxDiff.Name = "txtBxDiff";
+			this.txtBxDiff.Size = new System.Drawing.Size(50, 23);
+			this.txtBxDiff.TabIndex = 3;
+			this.txtBxDiff.Text = "100";
+			this.txtBxDiff.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
-			// button2
+			// lblDiff
 			// 
-			this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button2.Location = new System.Drawing.Point(128, 28);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(24, 23);
-			this.button2.TabIndex = 1;
-			this.button2.Text = "+";
-			this.button2.UseVisualStyleBackColor = true;
+			this.lblDiff.AutoEllipsis = true;
+			this.lblDiff.AutoSize = true;
+			this.lblDiff.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.lblDiff.Location = new System.Drawing.Point(72, 9);
+			this.lblDiff.Name = "lblDiff";
+			this.lblDiff.Size = new System.Drawing.Size(49, 15);
+			this.lblDiff.TabIndex = 2;
+			this.lblDiff.Text = "Difficulty";
 			// 
-			// label1
+			// btnPlusDiff
 			// 
-			this.label1.AutoEllipsis = true;
-			this.label1.AutoSize = true;
-			this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.label1.Location = new System.Drawing.Point(72, 9);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(49, 15);
-			this.label1.TabIndex = 2;
-			this.label1.Text = "Difficulty";
+			this.btnPlusDiff.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnPlusDiff.Location = new System.Drawing.Point(128, 28);
+			this.btnPlusDiff.Name = "btnPlusDiff";
+			this.btnPlusDiff.Size = new System.Drawing.Size(24, 23);
+			this.btnPlusDiff.TabIndex = 1;
+			this.btnPlusDiff.Text = "+";
+			this.btnPlusDiff.UseVisualStyleBackColor = true;
 			// 
-			// textBox1
+			// btnMinusDiff
 			// 
-			this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-			this.textBox1.Font = new System.Drawing.Font("Neuropol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.textBox1.ForeColor = System.Drawing.Color.Lime;
-			this.textBox1.Location = new System.Drawing.Point(72, 27);
-			this.textBox1.MaximumSize = new System.Drawing.Size(50, 25);
-			this.textBox1.MinimumSize = new System.Drawing.Size(50, 25);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(50, 25);
-			this.textBox1.TabIndex = 3;
-			this.textBox1.Text = "100";
-			this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			this.btnMinusDiff.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnMinusDiff.Location = new System.Drawing.Point(42, 27);
+			this.btnMinusDiff.Name = "btnMinusDiff";
+			this.btnMinusDiff.Size = new System.Drawing.Size(24, 23);
+			this.btnMinusDiff.TabIndex = 0;
+			this.btnMinusDiff.Text = "-";
+			this.btnMinusDiff.UseVisualStyleBackColor = true;
 			// 
 			// Form1
 			// 
@@ -1317,10 +1317,10 @@
 		private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem;
 		private System.Windows.Forms.Panel panel1;
-		private System.Windows.Forms.TextBox textBox1;
-		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.TextBox txtBxDiff;
+		private System.Windows.Forms.Label lblDiff;
+		private System.Windows.Forms.Button btnPlusDiff;
+		private System.Windows.Forms.Button btnMinusDiff;
 	}
 }
 
