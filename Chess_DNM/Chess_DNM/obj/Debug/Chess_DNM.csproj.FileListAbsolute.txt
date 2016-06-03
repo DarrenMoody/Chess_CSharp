@@ -8,3 +8,12 @@ C:\Users\moodyToons\Documents\GitHub\Chess_CSharp\Chess_DNM\Chess_DNM\obj\Debug\
 C:\Users\moodyToons\Documents\GitHub\Chess_CSharp\Chess_DNM\Chess_DNM\obj\Debug\Chess_DNM.csproj.GenerateResource.Cache
 C:\Users\moodyToons\Documents\GitHub\Chess_CSharp\Chess_DNM\Chess_DNM\obj\Debug\Chess_DNM.exe
 C:\Users\moodyToons\Documents\GitHub\Chess_CSharp\Chess_DNM\Chess_DNM\obj\Debug\Chess_DNM.pdb
+C:\Users\chrit\Documents\GitHub\Chess_CSharp\Chess_DNM\Chess_DNM\bin\Debug\Chess_DNM.exe.config
+C:\Users\chrit\Documents\GitHub\Chess_CSharp\Chess_DNM\Chess_DNM\obj\Debug\Chess_DNM.exe
+C:\Users\chrit\Documents\GitHub\Chess_CSharp\Chess_DNM\Chess_DNM\obj\Debug\Chess_DNM.pdb
+C:\Users\chrit\Documents\GitHub\Chess_CSharp\Chess_DNM\Chess_DNM\bin\Debug\Chess_DNM.exe
+C:\Users\chrit\Documents\GitHub\Chess_CSharp\Chess_DNM\Chess_DNM\bin\Debug\Chess_DNM.pdb
+C:\Users\chrit\Documents\GitHub\Chess_CSharp\Chess_DNM\Chess_DNM\obj\Debug\Chess_DNM.csprojResolveAssemblyReference.cache
+C:\Users\chrit\Documents\GitHub\Chess_CSharp\Chess_DNM\Chess_DNM\obj\Debug\Chess_DNM.Form1.resources
+C:\Users\chrit\Documents\GitHub\Chess_CSharp\Chess_DNM\Chess_DNM\obj\Debug\Chess_DNM.Properties.Resources.resources
+C:\Users\chrit\Documents\GitHub\Chess_CSharp\Chess_DNM\Chess_DNM\obj\Debug\Chess_DNM.csproj.GenerateResource.Cache
