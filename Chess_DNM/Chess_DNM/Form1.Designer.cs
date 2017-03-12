@@ -200,19 +200,19 @@
 			// saveGameToolStripMenuItem
 			// 
 			this.saveGameToolStripMenuItem.Name = "saveGameToolStripMenuItem";
-			this.saveGameToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.saveGameToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
 			this.saveGameToolStripMenuItem.Text = "Save Game";
 			// 
 			// newGameToolStripMenuItem
 			// 
 			this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-			this.newGameToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.newGameToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
 			this.newGameToolStripMenuItem.Text = "New Game";
 			// 
 			// exitToolStripMenuItem
 			// 
 			this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-			this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.exitToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
 			this.exitToolStripMenuItem.Text = "Exit";
 			this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
 			// 
@@ -346,6 +346,7 @@
 			this.pBoxB1.Size = new System.Drawing.Size(75, 75);
 			this.pBoxB1.TabIndex = 63;
 			this.pBoxB1.TabStop = false;
+			this.pBoxB1.Visible = false;
 			// 
 			// pBoxD1
 			// 
@@ -358,6 +359,7 @@
 			this.pBoxD1.Size = new System.Drawing.Size(75, 75);
 			this.pBoxD1.TabIndex = 62;
 			this.pBoxD1.TabStop = false;
+			this.pBoxD1.Visible = false;
 			// 
 			// pBoxF1
 			// 
@@ -370,6 +372,7 @@
 			this.pBoxF1.Size = new System.Drawing.Size(75, 75);
 			this.pBoxF1.TabIndex = 61;
 			this.pBoxF1.TabStop = false;
+			this.pBoxF1.Visible = false;
 			// 
 			// pBoxG1
 			// 
@@ -382,6 +385,7 @@
 			this.pBoxG1.Size = new System.Drawing.Size(75, 75);
 			this.pBoxG1.TabIndex = 60;
 			this.pBoxG1.TabStop = false;
+			this.pBoxG1.Visible = false;
 			// 
 			// pBoxE1
 			// 
@@ -394,6 +398,7 @@
 			this.pBoxE1.Size = new System.Drawing.Size(75, 75);
 			this.pBoxE1.TabIndex = 59;
 			this.pBoxE1.TabStop = false;
+			this.pBoxE1.Visible = false;
 			// 
 			// pBoxC1
 			// 
@@ -406,6 +411,7 @@
 			this.pBoxC1.Size = new System.Drawing.Size(75, 75);
 			this.pBoxC1.TabIndex = 58;
 			this.pBoxC1.TabStop = false;
+			this.pBoxC1.Visible = false;
 			// 
 			// pBoxA1
 			// 
@@ -418,6 +424,7 @@
 			this.pBoxA1.Size = new System.Drawing.Size(75, 75);
 			this.pBoxA1.TabIndex = 57;
 			this.pBoxA1.TabStop = false;
+			this.pBoxA1.Visible = false;
 			// 
 			// pBoxH1
 			// 
@@ -430,6 +437,7 @@
 			this.pBoxH1.Size = new System.Drawing.Size(75, 75);
 			this.pBoxH1.TabIndex = 56;
 			this.pBoxH1.TabStop = false;
+			this.pBoxH1.Visible = false;
 			// 
 			// pBoxC2
 			// 
@@ -442,6 +450,7 @@
 			this.pBoxC2.Size = new System.Drawing.Size(75, 75);
 			this.pBoxC2.TabIndex = 55;
 			this.pBoxC2.TabStop = false;
+			this.pBoxC2.Visible = false;
 			// 
 			// pBoxE2
 			// 
@@ -454,6 +463,7 @@
 			this.pBoxE2.Size = new System.Drawing.Size(75, 75);
 			this.pBoxE2.TabIndex = 54;
 			this.pBoxE2.TabStop = false;
+			this.pBoxE2.Visible = false;
 			// 
 			// pBoxG2
 			// 
@@ -466,6 +476,7 @@
 			this.pBoxG2.Size = new System.Drawing.Size(75, 75);
 			this.pBoxG2.TabIndex = 53;
 			this.pBoxG2.TabStop = false;
+			this.pBoxG2.Visible = false;
 			// 
 			// pBoxH2
 			// 
@@ -478,6 +489,7 @@
 			this.pBoxH2.Size = new System.Drawing.Size(75, 75);
 			this.pBoxH2.TabIndex = 52;
 			this.pBoxH2.TabStop = false;
+			this.pBoxH2.Visible = false;
 			// 
 			// pBoxF2
 			// 
@@ -490,6 +502,7 @@
 			this.pBoxF2.Size = new System.Drawing.Size(75, 75);
 			this.pBoxF2.TabIndex = 51;
 			this.pBoxF2.TabStop = false;
+			this.pBoxF2.Visible = false;
 			// 
 			// pBoxD2
 			// 
@@ -502,6 +515,7 @@
 			this.pBoxD2.Size = new System.Drawing.Size(75, 75);
 			this.pBoxD2.TabIndex = 50;
 			this.pBoxD2.TabStop = false;
+			this.pBoxD2.Visible = false;
 			// 
 			// pBoxB2
 			// 
@@ -514,6 +528,7 @@
 			this.pBoxB2.Size = new System.Drawing.Size(75, 75);
 			this.pBoxB2.TabIndex = 49;
 			this.pBoxB2.TabStop = false;
+			this.pBoxB2.Visible = false;
 			// 
 			// pBoxA2
 			// 
@@ -526,6 +541,7 @@
 			this.pBoxA2.Size = new System.Drawing.Size(75, 75);
 			this.pBoxA2.TabIndex = 48;
 			this.pBoxA2.TabStop = false;
+			this.pBoxA2.Visible = false;
 			// 
 			// pBoxB3
 			// 
@@ -538,6 +554,7 @@
 			this.pBoxB3.Size = new System.Drawing.Size(75, 75);
 			this.pBoxB3.TabIndex = 47;
 			this.pBoxB3.TabStop = false;
+			this.pBoxB3.Visible = false;
 			// 
 			// pBoxD3
 			// 
@@ -550,6 +567,7 @@
 			this.pBoxD3.Size = new System.Drawing.Size(75, 75);
 			this.pBoxD3.TabIndex = 46;
 			this.pBoxD3.TabStop = false;
+			this.pBoxD3.Visible = false;
 			// 
 			// pBoxF3
 			// 
@@ -562,6 +580,7 @@
 			this.pBoxF3.Size = new System.Drawing.Size(75, 75);
 			this.pBoxF3.TabIndex = 45;
 			this.pBoxF3.TabStop = false;
+			this.pBoxF3.Visible = false;
 			// 
 			// pBoxG3
 			// 
@@ -574,6 +593,7 @@
 			this.pBoxG3.Size = new System.Drawing.Size(75, 75);
 			this.pBoxG3.TabIndex = 44;
 			this.pBoxG3.TabStop = false;
+			this.pBoxG3.Visible = false;
 			// 
 			// pBoxE3
 			// 
@@ -586,6 +606,7 @@
 			this.pBoxE3.Size = new System.Drawing.Size(75, 75);
 			this.pBoxE3.TabIndex = 43;
 			this.pBoxE3.TabStop = false;
+			this.pBoxE3.Visible = false;
 			// 
 			// pBoxC3
 			// 
@@ -598,6 +619,7 @@
 			this.pBoxC3.Size = new System.Drawing.Size(75, 75);
 			this.pBoxC3.TabIndex = 42;
 			this.pBoxC3.TabStop = false;
+			this.pBoxC3.Visible = false;
 			// 
 			// pBoxA3
 			// 
@@ -610,6 +632,7 @@
 			this.pBoxA3.Size = new System.Drawing.Size(75, 75);
 			this.pBoxA3.TabIndex = 41;
 			this.pBoxA3.TabStop = false;
+			this.pBoxA3.Visible = false;
 			// 
 			// pBoxH3
 			// 
@@ -622,6 +645,7 @@
 			this.pBoxH3.Size = new System.Drawing.Size(75, 75);
 			this.pBoxH3.TabIndex = 40;
 			this.pBoxH3.TabStop = false;
+			this.pBoxH3.Visible = false;
 			// 
 			// pBoxC4
 			// 
@@ -634,6 +658,7 @@
 			this.pBoxC4.Size = new System.Drawing.Size(75, 75);
 			this.pBoxC4.TabIndex = 39;
 			this.pBoxC4.TabStop = false;
+			this.pBoxC4.Visible = false;
 			// 
 			// pBoxE4
 			// 
@@ -646,6 +671,7 @@
 			this.pBoxE4.Size = new System.Drawing.Size(75, 75);
 			this.pBoxE4.TabIndex = 38;
 			this.pBoxE4.TabStop = false;
+			this.pBoxE4.Visible = false;
 			// 
 			// pBoxG4
 			// 
@@ -658,6 +684,7 @@
 			this.pBoxG4.Size = new System.Drawing.Size(75, 75);
 			this.pBoxG4.TabIndex = 37;
 			this.pBoxG4.TabStop = false;
+			this.pBoxG4.Visible = false;
 			// 
 			// pBoxH4
 			// 
@@ -670,6 +697,7 @@
 			this.pBoxH4.Size = new System.Drawing.Size(75, 75);
 			this.pBoxH4.TabIndex = 36;
 			this.pBoxH4.TabStop = false;
+			this.pBoxH4.Visible = false;
 			// 
 			// pBoxF4
 			// 
@@ -682,6 +710,7 @@
 			this.pBoxF4.Size = new System.Drawing.Size(75, 75);
 			this.pBoxF4.TabIndex = 35;
 			this.pBoxF4.TabStop = false;
+			this.pBoxF4.Visible = false;
 			// 
 			// pBoxD4
 			// 
@@ -694,6 +723,7 @@
 			this.pBoxD4.Size = new System.Drawing.Size(75, 75);
 			this.pBoxD4.TabIndex = 34;
 			this.pBoxD4.TabStop = false;
+			this.pBoxD4.Visible = false;
 			// 
 			// pBoxB4
 			// 
@@ -706,6 +736,7 @@
 			this.pBoxB4.Size = new System.Drawing.Size(75, 75);
 			this.pBoxB4.TabIndex = 33;
 			this.pBoxB4.TabStop = false;
+			this.pBoxB4.Visible = false;
 			// 
 			// pBoxA4
 			// 
@@ -718,6 +749,7 @@
 			this.pBoxA4.Size = new System.Drawing.Size(75, 75);
 			this.pBoxA4.TabIndex = 32;
 			this.pBoxA4.TabStop = false;
+			this.pBoxA4.Visible = false;
 			// 
 			// pBoxB5
 			// 
@@ -730,6 +762,7 @@
 			this.pBoxB5.Size = new System.Drawing.Size(75, 75);
 			this.pBoxB5.TabIndex = 31;
 			this.pBoxB5.TabStop = false;
+			this.pBoxB5.Visible = false;
 			// 
 			// pBoxD5
 			// 
@@ -742,6 +775,7 @@
 			this.pBoxD5.Size = new System.Drawing.Size(75, 75);
 			this.pBoxD5.TabIndex = 30;
 			this.pBoxD5.TabStop = false;
+			this.pBoxD5.Visible = false;
 			// 
 			// pBoxF5
 			// 
@@ -754,6 +788,7 @@
 			this.pBoxF5.Size = new System.Drawing.Size(75, 75);
 			this.pBoxF5.TabIndex = 29;
 			this.pBoxF5.TabStop = false;
+			this.pBoxF5.Visible = false;
 			// 
 			// pBoxG5
 			// 
@@ -766,6 +801,7 @@
 			this.pBoxG5.Size = new System.Drawing.Size(75, 75);
 			this.pBoxG5.TabIndex = 28;
 			this.pBoxG5.TabStop = false;
+			this.pBoxG5.Visible = false;
 			// 
 			// pBoxE5
 			// 
@@ -778,6 +814,7 @@
 			this.pBoxE5.Size = new System.Drawing.Size(75, 75);
 			this.pBoxE5.TabIndex = 27;
 			this.pBoxE5.TabStop = false;
+			this.pBoxE5.Visible = false;
 			// 
 			// pBoxC5
 			// 
@@ -790,6 +827,7 @@
 			this.pBoxC5.Size = new System.Drawing.Size(75, 75);
 			this.pBoxC5.TabIndex = 26;
 			this.pBoxC5.TabStop = false;
+			this.pBoxC5.Visible = false;
 			// 
 			// pBoxA5
 			// 
@@ -802,6 +840,7 @@
 			this.pBoxA5.Size = new System.Drawing.Size(75, 75);
 			this.pBoxA5.TabIndex = 25;
 			this.pBoxA5.TabStop = false;
+			this.pBoxA5.Visible = false;
 			// 
 			// pBoxH5
 			// 
@@ -814,6 +853,7 @@
 			this.pBoxH5.Size = new System.Drawing.Size(75, 75);
 			this.pBoxH5.TabIndex = 24;
 			this.pBoxH5.TabStop = false;
+			this.pBoxH5.Visible = false;
 			// 
 			// pBoxC6
 			// 
@@ -826,6 +866,7 @@
 			this.pBoxC6.Size = new System.Drawing.Size(75, 75);
 			this.pBoxC6.TabIndex = 23;
 			this.pBoxC6.TabStop = false;
+			this.pBoxC6.Visible = false;
 			// 
 			// pBoxE6
 			// 
@@ -838,6 +879,7 @@
 			this.pBoxE6.Size = new System.Drawing.Size(75, 75);
 			this.pBoxE6.TabIndex = 22;
 			this.pBoxE6.TabStop = false;
+			this.pBoxE6.Visible = false;
 			// 
 			// pBoxG6
 			// 
@@ -850,6 +892,7 @@
 			this.pBoxG6.Size = new System.Drawing.Size(75, 75);
 			this.pBoxG6.TabIndex = 21;
 			this.pBoxG6.TabStop = false;
+			this.pBoxG6.Visible = false;
 			// 
 			// pBoxH6
 			// 
@@ -862,6 +905,7 @@
 			this.pBoxH6.Size = new System.Drawing.Size(75, 75);
 			this.pBoxH6.TabIndex = 20;
 			this.pBoxH6.TabStop = false;
+			this.pBoxH6.Visible = false;
 			// 
 			// pBoxF6
 			// 
@@ -874,6 +918,7 @@
 			this.pBoxF6.Size = new System.Drawing.Size(75, 75);
 			this.pBoxF6.TabIndex = 19;
 			this.pBoxF6.TabStop = false;
+			this.pBoxF6.Visible = false;
 			// 
 			// pBoxD6
 			// 
@@ -886,6 +931,7 @@
 			this.pBoxD6.Size = new System.Drawing.Size(75, 75);
 			this.pBoxD6.TabIndex = 18;
 			this.pBoxD6.TabStop = false;
+			this.pBoxD6.Visible = false;
 			// 
 			// pBoxB6
 			// 
@@ -898,6 +944,7 @@
 			this.pBoxB6.Size = new System.Drawing.Size(75, 75);
 			this.pBoxB6.TabIndex = 17;
 			this.pBoxB6.TabStop = false;
+			this.pBoxB6.Visible = false;
 			// 
 			// pBoxA6
 			// 
@@ -910,6 +957,7 @@
 			this.pBoxA6.Size = new System.Drawing.Size(75, 75);
 			this.pBoxA6.TabIndex = 16;
 			this.pBoxA6.TabStop = false;
+			this.pBoxA6.Visible = false;
 			// 
 			// pBoxB7
 			// 
@@ -922,6 +970,7 @@
 			this.pBoxB7.Size = new System.Drawing.Size(75, 75);
 			this.pBoxB7.TabIndex = 15;
 			this.pBoxB7.TabStop = false;
+			this.pBoxB7.Visible = false;
 			// 
 			// pBoxD7
 			// 
@@ -934,6 +983,7 @@
 			this.pBoxD7.Size = new System.Drawing.Size(75, 75);
 			this.pBoxD7.TabIndex = 14;
 			this.pBoxD7.TabStop = false;
+			this.pBoxD7.Visible = false;
 			// 
 			// pBoxF7
 			// 
@@ -946,6 +996,7 @@
 			this.pBoxF7.Size = new System.Drawing.Size(75, 75);
 			this.pBoxF7.TabIndex = 13;
 			this.pBoxF7.TabStop = false;
+			this.pBoxF7.Visible = false;
 			// 
 			// pBoxG7
 			// 
@@ -958,6 +1009,7 @@
 			this.pBoxG7.Size = new System.Drawing.Size(75, 75);
 			this.pBoxG7.TabIndex = 12;
 			this.pBoxG7.TabStop = false;
+			this.pBoxG7.Visible = false;
 			// 
 			// pBoxE7
 			// 
@@ -970,6 +1022,7 @@
 			this.pBoxE7.Size = new System.Drawing.Size(75, 75);
 			this.pBoxE7.TabIndex = 11;
 			this.pBoxE7.TabStop = false;
+			this.pBoxE7.Visible = false;
 			// 
 			// pBoxC7
 			// 
@@ -982,6 +1035,7 @@
 			this.pBoxC7.Size = new System.Drawing.Size(75, 75);
 			this.pBoxC7.TabIndex = 10;
 			this.pBoxC7.TabStop = false;
+			this.pBoxC7.Visible = false;
 			// 
 			// pBoxA7
 			// 
@@ -994,6 +1048,7 @@
 			this.pBoxA7.Size = new System.Drawing.Size(75, 75);
 			this.pBoxA7.TabIndex = 9;
 			this.pBoxA7.TabStop = false;
+			this.pBoxA7.Visible = false;
 			// 
 			// pBoxH7
 			// 
@@ -1006,6 +1061,7 @@
 			this.pBoxH7.Size = new System.Drawing.Size(75, 75);
 			this.pBoxH7.TabIndex = 8;
 			this.pBoxH7.TabStop = false;
+			this.pBoxH7.Visible = false;
 			// 
 			// pBoxC8
 			// 
@@ -1018,6 +1074,7 @@
 			this.pBoxC8.Size = new System.Drawing.Size(75, 75);
 			this.pBoxC8.TabIndex = 7;
 			this.pBoxC8.TabStop = false;
+			this.pBoxC8.Visible = false;
 			// 
 			// pBoxE8
 			// 
@@ -1030,6 +1087,7 @@
 			this.pBoxE8.Size = new System.Drawing.Size(75, 75);
 			this.pBoxE8.TabIndex = 6;
 			this.pBoxE8.TabStop = false;
+			this.pBoxE8.Visible = false;
 			// 
 			// pBoxG8
 			// 
@@ -1042,6 +1100,7 @@
 			this.pBoxG8.Size = new System.Drawing.Size(75, 75);
 			this.pBoxG8.TabIndex = 5;
 			this.pBoxG8.TabStop = false;
+			this.pBoxG8.Visible = false;
 			// 
 			// pBoxH8
 			// 
@@ -1054,6 +1113,7 @@
 			this.pBoxH8.Size = new System.Drawing.Size(75, 75);
 			this.pBoxH8.TabIndex = 4;
 			this.pBoxH8.TabStop = false;
+			this.pBoxH8.Visible = false;
 			// 
 			// pBoxF8
 			// 
@@ -1066,6 +1126,7 @@
 			this.pBoxF8.Size = new System.Drawing.Size(75, 75);
 			this.pBoxF8.TabIndex = 3;
 			this.pBoxF8.TabStop = false;
+			this.pBoxF8.Visible = false;
 			// 
 			// pBoxD8
 			// 
@@ -1078,6 +1139,7 @@
 			this.pBoxD8.Size = new System.Drawing.Size(75, 75);
 			this.pBoxD8.TabIndex = 2;
 			this.pBoxD8.TabStop = false;
+			this.pBoxD8.Visible = false;
 			// 
 			// pBoxB8
 			// 
@@ -1090,6 +1152,7 @@
 			this.pBoxB8.Size = new System.Drawing.Size(75, 75);
 			this.pBoxB8.TabIndex = 1;
 			this.pBoxB8.TabStop = false;
+			this.pBoxB8.Visible = false;
 			// 
 			// pBoxA8
 			// 
@@ -1102,12 +1165,14 @@
 			this.pBoxA8.Size = new System.Drawing.Size(75, 75);
 			this.pBoxA8.TabIndex = 0;
 			this.pBoxA8.TabStop = false;
+			this.pBoxA8.Visible = false;
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1040, 762);
+			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.panel1);
 			this.Controls.Add(this.pBoxB1);
 			this.Controls.Add(this.pBoxD1);
@@ -1174,7 +1239,6 @@
 			this.Controls.Add(this.pBoxB8);
 			this.Controls.Add(this.pBoxA8);
 			this.Controls.Add(this.menuStrip1);
-			this.Controls.Add(this.pictureBox1);
 			this.MainMenuStrip = this.menuStrip1;
 			this.Name = "Form1";
 			this.Padding = new System.Windows.Forms.Padding(5);
